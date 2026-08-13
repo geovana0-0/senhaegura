@@ -5,9 +5,9 @@
 :root {
 --branco: white; /* Cor do texto geral */
 --cor-de-fundo: #15002e; /* Roxo escuro do fundo da página */
---fundo-senha: hwb(7 4% 51%); /* Roxo médio para o bloco do resultado da senha */
---fundo-texto: #88210f; /* Roxo intermediário para o bloco de opções */
---borda: #b45346; /* Rosa neon/magenta para destacar bordas e botões */
+--fundo-senha: hwb(5 24% 71%); /* Roxo médio para o bloco do resultado da senha */
+--fundo-texto: #684a45; /* Roxo intermediário para o bloco de opções */
+--borda: #6d5957; /* Rosa neon/magenta para destacar bordas e botões */
 --roboto: 'Roboto', sans-serif; /* Fonte padrão para textos comuns */
 --roboto-mono: 'Roboto Mono', monospace; /* Fonte monoespaçada (letras com mesma largura) para códigos e
 senhas */
@@ -158,7 +158,7 @@ bottom: 30px; /* Joga a barra preenchida exatamente em cima do elemento '.barra'
 /* Estado: Senha Fraca (25% de preenchimento em vermelho) */
 .fraca {
 width: 25%;
-background-color: #6b474b;
+background-color: #c29587;
 }
 
 /* Estado: Senha Média (50% de preenchimento em amarelo) */
