@@ -4,8 +4,8 @@
 /* Definição das variáveis globais do projeto (paleta de cores e tipografia) */
 :root {
 --branco: white; /* Cor do texto geral */
---cor-de-fundo: #15002e; /* Roxo escuro do fundo da página */
---fundo-senha: hwb(5 24% 71%); /* Roxo médio para o bloco do resultado da senha */
+--cor-de-fundo: #e0bfa3; /* Roxo escuro do fundo da página */
+--fundo-senha: oklab(45.845% 0.01796 0.03627); /* Roxo médio para o bloco do resultado da senha */
 --fundo-texto: #684a45; /* Roxo intermediário para o bloco de opções */
 --borda: #6d5957; /* Rosa neon/magenta para destacar bordas e botões */
 --roboto: 'Roboto', sans-serif; /* Fonte padrão para textos comuns */
@@ -74,7 +74,8 @@ margin: 0 auto; /* Centraliza o bloco horizontalmente na tela */
 /* Caixa geral que engloba todas as configurações da senha */
 .parametro {
 background-color: var(--fundo-texto);
-border: 2px solid var(--borda); /* Borda magenta fina ao redor do bloco */
+border: 2px solid var(--borda); /* Borda magenta f Roxo escuro do fundo da página */
+--fundo-senha: hwb(5 2ina ao redor do bloco */
 margin-top: 32px;
 padding: 24px;
 }
