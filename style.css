@@ -4,10 +4,10 @@
 /* Definição das variáveis globais do projeto (paleta de cores e tipografia) */
 :root {
 --branco: white; /* Cor do texto geral */
---cor-de-fundo: #a3cfe0; /* Roxo escuro do fundo da página */
---fundo-senha: hwb(199 9% 61%); /* Roxo médio para o bloco do resultado da senha */
---fundo-texto: #154f69; /* Roxo intermediário para o bloco de opções */
---borda: #6494d3; /* Rosa neon/magenta para destacar bordas e botões */
+--cor-de-fundo: #15002e; /* Roxo escuro do fundo da página */
+--fundo-senha: hwb(7 4% 51%); /* Roxo médio para o bloco do resultado da senha */
+--fundo-texto: #88210f; /* Roxo intermediário para o bloco de opções */
+--borda: #b45346; /* Rosa neon/magenta para destacar bordas e botões */
 --roboto: 'Roboto', sans-serif; /* Fonte padrão para textos comuns */
 --roboto-mono: 'Roboto Mono', monospace; /* Fonte monoespaçada (letras com mesma largura) para códigos e
 senhas */
@@ -17,6 +17,7 @@ senhas */
 * {
 font-weight: 400; /* Estilo de fonte regular/normal */
 }
+
 /* Estilização da tag principal da página */
 body {
 color: var(--branco); /* Aplica a cor branca nos textos */
@@ -73,8 +74,7 @@ margin: 0 auto; /* Centraliza o bloco horizontalmente na tela */
 /* Caixa geral que engloba todas as configurações da senha */
 .parametro {
 background-color: var(--fundo-texto);
-border: 2px solid var(--borda); /* Borda magenta f Roxo escuro do fundo da página */
---fundo-senha: hwb(5 2ina ao redor do bloco */
+border: 2px solid var(--borda); /* Borda magenta fina ao redor do bloco */
 margin-top: 32px;
 padding: 24px;
 }
@@ -158,7 +158,7 @@ bottom: 30px; /* Joga a barra preenchida exatamente em cima do elemento '.barra'
 /* Estado: Senha Fraca (25% de preenchimento em vermelho) */
 .fraca {
 width: 25%;
-background-color: #c29587;
+background-color: #6b474b;
 }
 
 /* Estado: Senha Média (50% de preenchimento em amarelo) */
