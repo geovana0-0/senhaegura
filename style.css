@@ -4,10 +4,10 @@
 /* Definição das variáveis globais do projeto (paleta de cores e tipografia) */
 :root {
 --branco: white; /* Cor do texto geral */
---cor-de-fundo: #e0bfa3; /* Roxo escuro do fundo da página */
---fundo-senha: oklab(45.845% 0.01796 0.03627); /* Roxo médio para o bloco do resultado da senha */
---fundo-texto: #684a45; /* Roxo intermediário para o bloco de opções */
---borda: #6d5957; /* Rosa neon/magenta para destacar bordas e botões */
+--cor-de-fundo: #a3cfe0; /* Roxo escuro do fundo da página */
+--fundo-senha: hwb(199 9% 61%); /* Roxo médio para o bloco do resultado da senha */
+--fundo-texto: #154f69; /* Roxo intermediário para o bloco de opções */
+--borda: #6494d3; /* Rosa neon/magenta para destacar bordas e botões */
 --roboto: 'Roboto', sans-serif; /* Fonte padrão para textos comuns */
 --roboto-mono: 'Roboto Mono', monospace; /* Fonte monoespaçada (letras com mesma largura) para códigos e
 senhas */
@@ -17,7 +17,6 @@ senhas */
 * {
 font-weight: 400; /* Estilo de fonte regular/normal */
 }
-
 /* Estilização da tag principal da página */
 body {
 color: var(--branco); /* Aplica a cor branca nos textos */
