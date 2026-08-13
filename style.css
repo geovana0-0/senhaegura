@@ -4,7 +4,7 @@
 /* Definição das variáveis globais do projeto (paleta de cores e tipografia) */
 :root {
 --branco: rgb(252, 253, 253); /* Cor do texto geral */
---cor-de-fundo: #7c9bf1; /* Roxo escuro do fundo da página */
+--cor-de-fundo: #434d68; /* Roxo escuro do fundo da página */
 --fundo-senha: #3b75a5; /* Roxo médio para o bloco do resultado da senha */
 --fundo-texto: #377bb3; /* Roxo intermediário para o bloco de opções */
 --borda: #0eb7dd; /* Rosa neon/magenta para destacar bordas e botões */
