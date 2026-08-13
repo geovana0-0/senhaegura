@@ -163,14 +163,14 @@ background-color: #c6abdb;
 
 /* Estado: Senha Média (50% de preenchimento em amarelo) */
 .media {
-background-color: #FAF408;
+background-color: #ad71c9;
 
 width: 50%;
 }
 
 /* Estado: Senha Forte (100% de preenchimento em verde) */
 .forte {
-background-color: #00FF85;
+background-color: #684b75;
 width: 100%;
 }
 
